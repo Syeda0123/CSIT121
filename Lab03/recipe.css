@@ -1,0 +1,24 @@
+body {color: purple; background-color: lavender}
+p {margin: 10px; color: purple}
+h1 {font-Family: italic; font-size: 2.5em; text-decoration: underline; color: green; text-transformation: capitalize}
+h2 {color: blue; text-decoration: none}
+li {
+  margin: 5px 0;
+  text-transform: upercase;
+}
+.lastLine{color: red}
+img {
+  width:250px;
+  border-radius:15px;
+  box-shadow: 10px 10px 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image {
+  background: url("img/instructions.jpeg"); 
+  width: 250px;
+  height: 200px;
+  border-radius: 15px;
+  background-image: linear-gradientant(#912077); 
+  box-shadow: 10px 10px 10px;
+}
