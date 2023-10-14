@@ -1,0 +1,64 @@
+body {
+    background-color: dark purple ;
+    color: teal;
+    font-family: bradley hand;
+    margin: 0;
+    padding:0;
+  font-size: 20px
+}
+
+header{
+    background: pink;
+    padding: 20px;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: teal
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: 20px auto;
+}
+
+nav {float: left; width: 100px; font-family: italic; display: flex}
+
+main {margin-left: 100px; padding: 10px; background-color: dark purple}
+
+footer {text-allign: center; font-style: italic; color: pink}
+
+.container {margin-left: auto; margin-right: auto; width: 1000px; padding: 20px; body-radius: 10px; background-color: }
+
+nav ul {list-style-type: none; padding: 0px; font-weight: bold}
+
+body {
+    background-image: url('img/background.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: teal;
+}
+
