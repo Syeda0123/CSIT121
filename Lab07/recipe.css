@@ -33,7 +33,7 @@ img {
   box-shadow: 10px 10px 10px;
   display: block;
   margin-left: auto;
-  margin-right: 0 auto;
+  margin-right: auto;
 }
 .image {
   background: url("img/instructions.jpeg"); 
@@ -153,7 +153,6 @@ section h2 {
 
 tr:first-of-type {background-color: darkslategrey; color: Black;}
 
-}
 table.nutrition-table {
     width: 100%;
     margin-top: 10px;
