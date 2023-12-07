@@ -111,7 +111,7 @@ max-width: 800px;
 .image-container {
     width: 300px;
     height: 200px;
-    background-image: url("image/resume.jpeg");
+    background-image: url("resume.jpeg");
     background-size: cover;
     background-position: center; 
     border: 2px solid #ccc;
