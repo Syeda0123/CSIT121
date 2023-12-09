@@ -16,23 +16,30 @@
                     <li><a href="contact.html">Contact Form</a></li>
                 </ul>
             </nav>
-
-            <form action="/search" method="get">
-                <input type="text" placeholder="Search..." name="search">
-                <button type="submit">Search</button>
-            </form>
         </header>
 
         <main>
-            <h3>Introduction</h3>
-            <p>One of my favorite sports to play is basketball. This website will be great for all the people who are interested in playing basketball and would like to know the rules and techniques for basketball along with learning the history from where this all started.</p><br>
-
-            <img src="image/basketball.jpeg" alt="Basketball">
+            <section>
+                <h1>Contact Us</h1>
+                <form action="/submit_form.php" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </section>
         </main>
 
         <footer>
             <p>&copy; 2023 Basketball Techniques and Rules.</p>
         </footer>
-    </div> 
+    </div>
 </body>
 </html>
